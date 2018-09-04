@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression" time="34" tests="1" failures="0" errors="0">
+   <testsuite name="Regression" tests="1" failures="0" errors="0" time="34" timestamp="2018-09-04 20:03:07" hostname="tapan - AARUSHsIDEAPAD" id="Test Suites/Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\tapan.LAPTOP-L18RHV6N\\Downloads\\ProjectXero\\Reports\\Regression\\20180904_200300"/>
+         <property name="logFiles" value="C:\\Users\\tapan.LAPTOP-L18RHV6N\\Downloads\\ProjectXero\\Reports\\Regression\\20180904_200300\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="tapan - AARUSHsIDEAPAD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="sessionId" value="d2c852641af95f8c44e6efe0789c64df"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Tests/Add Bank Account/I want to be able to add an ANZ(NZ) bank account inside Xero Organisation" classname="Test Cases/Tests/Add Bank Account/I want to be able to add an ANZ(NZ) bank account inside Xero Organisation" status="PASSED">
+         <system-out><![CDATA[2018-09-04 20:03:07 - [TEST_CASE][PASSED] - Test Cases/Tests/Add Bank Account/I want to be able to add an ANZ(NZ) bank account inside Xero Organisation: Test Cases/Tests/Add Bank Account/I want to be able to add an ANZ(NZ) bank account inside Xero Organisation
+
+2018-09-04 20:03:07 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://www.xero.com/au/' successfully
+
+2018-09-04 20:03:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-04 20:03:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-04 20:03:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-04 20:03:12 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-04 20:03:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.xero.com/au/' successfully
+
+2018-09-04 20:03:16 - [MESSAGE][PASSED] - Navigate to 'https://www.xero.com/au/' successfully
+
+2018-09-04 20:03:16 - [TEST_STEP][PASSED] - comment: Call the login Test case
+
+2018-09-04 20:03:16 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Tests/Helper Test Cases/Login with username and encrypted password specified in GlobalVariable' successfully
+
+2018-09-04 20:03:16 - [TEST_CASE][PASSED] - Test Cases/Tests/Helper Test Cases/Login with username and encrypted password specified in GlobalVariable: Test Cases/Tests/Helper Test Cases/Login with username and encrypted password specified in GlobalVariable
+
+2018-09-04 20:03:17 - [TEST_STEP][PASSED] - comment: Wait until element is visible
+
+2018-09-04 20:03:17 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beautiful Business  Accounting/dd_Beautiful business' is visible
+
+2018-09-04 20:03:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beautiful Business  Accounting/dd_Beautiful business' is visible
+
+2018-09-04 20:03:17 - [TEST_STEP][PASSED] - comment: Click on login button
+
+2018-09-04 20:03:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beautiful Business  Accounting/a_Login' is clicked on
+
+2018-09-04 20:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beautiful Business  Accounting/a_Login' is clicked on
+
+2018-09-04 20:03:19 - [TEST_STEP][PASSED] - comment: Wait until username field is visible and once displayed enter the user name
+
+2018-09-04 20:03:19 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Login  Xero Accounting Softwar/input_userName' is visible
+
+2018-09-04 20:03:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login  Xero Accounting Softwar/input_userName' is visible
+
+2018-09-04 20:03:19 - [TEST_STEP][PASSED] - sendKeys: Keys 'tapanagkumar@gmail.com' sent to object: 'Object Repository/Page_Login  Xero Accounting Softwar/input_userName'
+
+2018-09-04 20:03:19 - [MESSAGE][PASSED] - Keys 'tapanagkumar@gmail.com' sent to object: 'Object Repository/Page_Login  Xero Accounting Softwar/input_userName'
+
+2018-09-04 20:03:19 - [TEST_STEP][PASSED] - comment: Enter the encrypted password
+
+2018-09-04 20:03:19 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Login  Xero Accounting Softwar/input_password'
+
+2018-09-04 20:03:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login  Xero Accounting Softwar/input_password'
+
+2018-09-04 20:03:20 - [TEST_STEP][PASSED] - comment: Hit the login button
+
+2018-09-04 20:03:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Xero Accounting Softwar/button_Login' is clicked on
+
+2018-09-04 20:03:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Xero Accounting Softwar/button_Login' is clicked on
+
+2018-09-04 20:03:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Tests/Helper Test Cases/Login with username and encrypted password specified in GlobalVariable' successfully
+
+2018-09-04 20:03:21 - [TEST_STEP][PASSED] - comment: Verify if the UI shows two step authentication screen, If yes, click the Not now button
+
+2018-09-04 20:03:21 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Login  Xero Accounting Softwar/Set up two-step authenticat), 20)): Object: 'Object Repository/Page_Login  Xero Accounting Softwar/button_Not now' is clicked on
+
+2018-09-04 20:03:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login  Xero Accounting Softwar/Set up two-step authenticat' is present
+
+2018-09-04 20:03:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Xero Accounting Softwar/button_Not now' is clicked on
+
+2018-09-04 20:03:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Xero Accounting Softwar/button_Not now' is clicked on
+
+2018-09-04 20:03:26 - [TEST_STEP][PASSED] - comment: Navigate to Bank Accounts Page
+
+2018-09-04 20:03:26 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Tests/Helper Test Cases/Navigate to Bank Accounts Page' successfully
+
+2018-09-04 20:03:26 - [TEST_CASE][PASSED] - Test Cases/Tests/Helper Test Cases/Navigate to Bank Accounts Page: Test Cases/Tests/Helper Test Cases/Navigate to Bank Accounts Page
+
+2018-09-04 20:03:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Xero  Dashboard  Test/a_Accounts' is clicked on
+
+2018-09-04 20:03:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Xero  Dashboard  Test/a_Accounts' is clicked on
+
+2018-09-04 20:03:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Xero  Dashboard  Test/a_Bank Accounts' is clicked on
+
+2018-09-04 20:03:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Xero  Dashboard  Test/a_Bank Accounts' is clicked on
+
+2018-09-04 20:03:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Tests/Helper Test Cases/Navigate to Bank Accounts Page' successfully
+
+2018-09-04 20:03:29 - [TEST_STEP][PASSED] - comment: Adding a Bank Account
+
+2018-09-04 20:03:29 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Tests/Helper Test Cases/Add a Bank Account' successfully
+
+2018-09-04 20:03:29 - [TEST_CASE][PASSED] - Test Cases/Tests/Helper Test Cases/Add a Bank Account: Test Cases/Tests/Helper Test Cases/Add a Bank Account
+
+2018-09-04 20:03:30 - [TEST_STEP][PASSED] - comment: Create a Faker object
+
+2018-09-04 20:03:30 - [TEST_STEP][PASSED] - Statement - faker = new com.github.javafaker.Faker(): null
+
+2018-09-04 20:03:30 - [TEST_STEP][PASSED] - comment: Create a generator object
+
+2018-09-04 20:03:30 - [TEST_STEP][PASSED] - Statement - generator = new java.util.Random(): null
+
+2018-09-04 20:03:30 - [TEST_STEP][PASSED] - comment: Generate a Random six digit number and assign it to a variable num
+
+2018-09-04 20:03:30 - [TEST_STEP][PASSED] - Statement - num = generator.nextInt(900000) + 100000: null
+
+2018-09-04 20:03:30 - [TEST_STEP][PASSED] - comment: Click on the Add Bank Account
+
+2018-09-04 20:03:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Xero  Bank Accounts  Test/Add Bank Account' is clicked on
+
+2018-09-04 20:03:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Xero  Bank Accounts  Test/Add Bank Account' is clicked on
+
+2018-09-04 20:03:32 - [TEST_STEP][PASSED] - comment: Wait until the element is visible
+
+2018-09-04 20:03:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Xero  Find your bank  Test/Find your bank' is visible
+
+2018-09-04 20:03:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Xero  Find your bank  Test/Find your bank' is visible
+
+2018-09-04 20:03:32 - [TEST_STEP][PASSED] - comment: Verify is text is present
+
+2018-09-04 20:03:32 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Find your bank' is present on page 
+
+2018-09-04 20:03:33 - [MESSAGE][PASSED] - Text 'Find your bank' is present on page 
+
+2018-09-04 20:03:33 - [TEST_STEP][PASSED] - comment: Enter Bank name
+
+2018-09-04 20:03:33 - [TEST_STEP][PASSED] - setText: Text 'ANZ (AU)' is set on object 'Object Repository/Page_Xero  Find your bank  Test/Search Bank'
+
+2018-09-04 20:03:33 - [MESSAGE][PASSED] - Text 'ANZ (AU)' is set on object 'Object Repository/Page_Xero  Find your bank  Test/Search Bank'
+
+2018-09-04 20:03:33 - [TEST_STEP][PASSED] - comment: Wait until element is clickable
+
+2018-09-04 20:03:33 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Xero  Find your bank  Test/Add Bank' is clickable
+
+2018-09-04 20:03:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Xero  Find your bank  Test/Add Bank' is clickable
+
+2018-09-04 20:03:33 - [TEST_STEP][PASSED] - comment: Click on Add Bank
+
+2018-09-04 20:03:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Xero  Find your bank  Test/Add Bank' is clicked on
+
+2018-09-04 20:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Xero  Find your bank  Test/Add Bank' is clicked on
+
+2018-09-04 20:03:34 - [TEST_STEP][PASSED] - comment: Wait until element is visible
+
+2018-09-04 20:03:34 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Xero  Enter your ANZ (AU) acco/input_accountname' is visible
+
+2018-09-04 20:03:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-04 20:03:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Xero  Enter your ANZ (AU) acco/input_accountname' is visible
+
+2018-09-04 20:03:34 - [TEST_STEP][PASSED] - comment: Generate a name using faker and assign the value to name variable
+
+2018-09-04 20:03:34 - [TEST_STEP][PASSED] - Statement - name = faker.name().firstName(): null
+
+2018-09-04 20:03:34 - [TEST_STEP][PASSED] - comment: Enter account name
+
+2018-09-04 20:03:34 - [TEST_STEP][PASSED] - setText: Text 'Aurore`s Account' is set on object 'Object Repository/Page_Xero  Enter your ANZ (AU) acco/input_accountname'
+
+2018-09-04 20:03:35 - [MESSAGE][PASSED] - Text 'Aurore`s Account' is set on object 'Object Repository/Page_Xero  Enter your ANZ (AU) acco/input_accountname'
+
+2018-09-04 20:03:35 - [TEST_STEP][PASSED] - comment: Enter account number
+
+2018-09-04 20:03:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Xero  Enter your ANZ (AU) acco/input_accounttype' is clicked on
+
+2018-09-04 20:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Xero  Enter your ANZ (AU) acco/input_accounttype' is clicked on
+
+2018-09-04 20:03:35 - [TEST_STEP][PASSED] - comment: Select account type
+
+2018-09-04 20:03:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Xero  Enter your ANZ (AU) acco/Everyday (day-to-day)' is clicked on
+
+2018-09-04 20:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Xero  Enter your ANZ (AU) acco/Everyday (day-to-day)' is clicked on
+
+2018-09-04 20:03:35 - [TEST_STEP][PASSED] - comment: Parse the number to string
+
+2018-09-04 20:03:35 - [TEST_STEP][PASSED] - Statement - BSB = java.lang.Integer.toString(num): null
+
+2018-09-04 20:03:35 - [TEST_STEP][PASSED] - comment: Click and enter the branch number
+
+2018-09-04 20:03:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Xero  Enter your ANZ (AU) acco/input_branchnumber' is clicked on
+
+2018-09-04 20:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Xero  Enter your ANZ (AU) acco/input_branchnumber' is clicked on
+
+2018-09-04 20:03:35 - [TEST_STEP][PASSED] - setText: Text '774720' is set on object 'Object Repository/Page_Xero  Enter your ANZ (AU) acco/input_branchnumber'
+
+2018-09-04 20:03:35 - [MESSAGE][PASSED] - Text '774720' is set on object 'Object Repository/Page_Xero  Enter your ANZ (AU) acco/input_branchnumber'
+
+2018-09-04 20:03:35 - [TEST_STEP][PASSED] - comment: Enter account number
+
+2018-09-04 20:03:35 - [TEST_STEP][PASSED] - setText: Text '774720' is set on object 'Object Repository/Page_Xero  Enter your ANZ (AU) acco/input_accountnumber'
+
+2018-09-04 20:03:36 - [MESSAGE][PASSED] - Text '774720' is set on object 'Object Repository/Page_Xero  Enter your ANZ (AU) acco/input_accountnumber'
+
+2018-09-04 20:03:36 - [TEST_STEP][PASSED] - comment: Click on contnue
+
+2018-09-04 20:03:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Xero  Enter your ANZ (AU) acco/Continue' is clicked on
+
+2018-09-04 20:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Xero  Enter your ANZ (AU) acco/Continue' is clicked on
+
+2018-09-04 20:03:36 - [TEST_STEP][PASSED] - comment: Wait until element is visible
+
+2018-09-04 20:03:36 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Xero  Automatically import you/Automatically import your transactions' is visible
+
+2018-09-04 20:03:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Xero  Automatically import you/Automatically import your transactions' is visible
+
+2018-09-04 20:03:37 - [TEST_STEP][PASSED] - comment: Verify if text is present
+
+2018-09-04 20:03:37 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Automatically import your transactions' is present on page 
+
+2018-09-04 20:03:37 - [MESSAGE][PASSED] - Text 'Automatically import your transactions' is present on page 
+
+2018-09-04 20:03:37 - [TEST_STEP][PASSED] - comment: Click on the skip button
+
+2018-09-04 20:03:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Xero  Automatically import you/Skip Automatically Import your transactions' is clicked on
+
+2018-09-04 20:03:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Xero  Automatically import you/Skip Automatically Import your transactions' is clicked on
+
+2018-09-04 20:03:37 - [TEST_STEP][PASSED] - comment: Wait until element is visible
+
+2018-09-04 20:03:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Xero  Bank Accounts  Test/Account added notify' is visible
+
+2018-09-04 20:03:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Xero  Bank Accounts  Test/Account added notify' is visible
+
+2018-09-04 20:03:40 - [TEST_STEP][PASSED] - comment: Verify if text is present
+
+2018-09-04 20:03:40 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'has been added.' is present on page 
+
+2018-09-04 20:03:41 - [MESSAGE][PASSED] - Text 'has been added.' is present on page 
+
+2018-09-04 20:03:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Tests/Helper Test Cases/Add a Bank Account' successfully
+
+2018-09-04 20:03:41 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-09-04 20:03:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-04 20:03:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-04 20:03:07 - [TEST_SUITE][PASSED] - Regression: Test Cases/Tests/Add Bank Account/I want to be able to add an ANZ(NZ) bank account inside Xero Organisation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression" time="2" tests="0" failures="1" errors="0">
+   <testsuite name="Regression" tests="0" failures="1" errors="0" time="2" timestamp="2018-09-04 20:02:51" hostname="tapan - AARUSHsIDEAPAD" id="Test Suites/Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\tapan.LAPTOP-L18RHV6N\\Downloads\\ProjectXero\\Reports\\Regression\\20180904_200243"/>
+         <property name="logFiles" value="C:\\Users\\tapan.LAPTOP-L18RHV6N\\Downloads\\ProjectXero\\Reports\\Regression\\20180904_200243\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="tapan - AARUSHsIDEAPAD"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+      </properties>
+      <testcase name="Test Cases/Tests/Add Bank Account/I want to be able to add an ANZ(NZ) bank account inside Xero Organisation" classname="Test Cases/Tests/Add Bank Account/I want to be able to add an ANZ(NZ) bank account inside Xero Organisation" status="FAILED">
+         <failure type="FAILED" message="Unable to wait for object 'Object Repository/Page_Beautiful Business  Accounting/dd_Beautiful business' to be visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AARUSHSIDEAPAD', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-09-04 20:02:52 - [TEST_CASE][FAILED] - Test Cases/Tests/Add Bank Account/I want to be able to add an ANZ(NZ) bank account inside Xero Organisation: Test Cases/Tests/Add Bank Account/I want to be able to add an ANZ(NZ) bank account inside Xero Organisation FAILED because (of) Unable to wait for object 'Object Repository/Page_Beautiful Business  Accounting/dd_Beautiful business' to be visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AARUSHSIDEAPAD', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-09-04 20:02:52 - [TEST_STEP][ERROR] - Start listener action : beforeTestcase: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AARUSHSIDEAPAD', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-09-04 20:02:52 - [TEST_STEP][ERROR] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AARUSHSIDEAPAD', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-09-04 20:02:52 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AARUSHSIDEAPAD', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-09-04 20:02:52 - [MESSAGE][ERROR] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AARUSHSIDEAPAD', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-09-04 20:02:53 - [TEST_STEP][PASSED] - comment: Call the login Test case
+
+2018-09-04 20:02:53 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Tests/Helper Test Cases/Login with username and encrypted password specified in GlobalVariable' (Root cause: Call Test Case 'Test Cases/Tests/Helper Test Cases/Login with username and encrypted password specified in GlobalVariable' failed)
+
+2018-09-04 20:02:53 - [TEST_CASE][FAILED] - Test Cases/Tests/Helper Test Cases/Login with username and encrypted password specified in GlobalVariable: Test Cases/Tests/Helper Test Cases/Login with username and encrypted password specified in GlobalVariable FAILED because (of) Unable to wait for object 'Object Repository/Page_Beautiful Business  Accounting/dd_Beautiful business' to be visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AARUSHSIDEAPAD', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-09-04 20:02:53 - [TEST_STEP][PASSED] - comment: Wait until element is visible
+
+2018-09-04 20:02:53 - [TEST_STEP][FAILED] - waitForElementVisible: Unable to wait for object 'Object Repository/Page_Beautiful Business  Accounting/dd_Beautiful business' to be visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AARUSHSIDEAPAD', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-09-04 20:02:53 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-09-04 20:02:53 - [MESSAGE][FAILED] - Unable to wait for object 'Object Repository/Page_Beautiful Business  Accounting/dd_Beautiful business' to be visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AARUSHSIDEAPAD', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-09-04 20:02:53 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Tests/Helper Test Cases/Login with username and encrypted password specified in GlobalVariable' (Root cause: Call Test Case 'Test Cases/Tests/Helper Test Cases/Login with username and encrypted password specified in GlobalVariable' failed)
+
+2018-09-04 20:02:53 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-09-04 20:02:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-04 20:02:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-09-04 20:02:52 - [TEST_CASE][FAILED] - Test Cases/Tests/Add Bank Account/I want to be able to add an ANZ(NZ) bank account inside Xero Organisation: Test Cases/Tests/Add Bank Account/I want to be able to add an ANZ(NZ) bank account inside Xero Organisation FAILED because (of) Unable to wait for object 'Object Repository/Page_Beautiful Business  Accounting/dd_Beautiful business' to be visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AARUSHSIDEAPAD', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-04 20:02:51 - [TEST_SUITE][FAILED] - Regression: Test Cases/Tests/Add Bank Account/I want to be able to add an ANZ(NZ) bank account inside Xero Organisation FAILED because (of) Unable to wait for object 'Object Repository/Page_Beautiful Business  Accounting/dd_Beautiful business' to be visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AARUSHSIDEAPAD', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-09-04 20:02:51 - [TEST_SUITE][FAILED] - Regression: Test Cases/Tests/Add Bank Account/I want to be able to add an ANZ(NZ) bank account inside Xero Organisation FAILED because (of) Unable to wait for object 'Object Repository/Page_Beautiful Business  Accounting/dd_Beautiful business' to be visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AARUSHSIDEAPAD', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

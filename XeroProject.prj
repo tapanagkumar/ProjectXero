@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>Sample Project - Login in to Xero Production account and perform testcases</description>
+   <name>XeroProject</name>
+   <tag></tag>
+   <UUID>e88aa58b-52d5-45cf-8cfd-30bdba4abc41</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

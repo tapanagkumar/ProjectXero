@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression,Chrome 68.0.3440.106,,2018-09-04 20:03:07,2018-09-04 20:03:41,34.642s,PASSED
+,,,,,,
+Test Cases/Tests/Add Bank Account/I want to be able to add an ANZ(NZ) bank account inside Xero Organisation,Chrome 68.0.3440.106,"As a Xero User,
+In order to manage my business successfully,
+I want to be able to add an ANZ(NZ) bank account inside Xero Organisation.",2018-09-04 20:03:07,2018-09-04 20:03:41,34.069s,PASSED
+Start listener action : beforeTestcase,Chrome 68.0.3440.106,,2018-09-04 20:03:07,2018-09-04 20:03:16,8.512s,PASSED
+comment,Chrome 68.0.3440.106,,2018-09-04 20:03:16,2018-09-04 20:03:16,0.028s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-04 20:03:16,2018-09-04 20:03:21,4.843s,PASSED
+comment,Chrome 68.0.3440.106,,2018-09-04 20:03:21,2018-09-04 20:03:21,0.001s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Login  Xero Accounting Softwar/Set up two-step authenticat), 20))",Chrome 68.0.3440.106,,2018-09-04 20:03:21,2018-09-04 20:03:26,4.531s,PASSED
+comment,Chrome 68.0.3440.106,,2018-09-04 20:03:26,2018-09-04 20:03:26,0.001s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-04 20:03:26,2018-09-04 20:03:29,3.453s,PASSED
+comment,Chrome 68.0.3440.106,,2018-09-04 20:03:29,2018-09-04 20:03:29,0.001s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-04 20:03:29,2018-09-04 20:03:41,11.501s,PASSED
+Start listener action : afterTestcase,Chrome 68.0.3440.106,,2018-09-04 20:03:41,2018-09-04 20:03:41,0.867s,PASSED

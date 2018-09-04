@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add a Bank Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3143a21-d49f-4f94-baf7-b8ac4c7428c2</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>840813d8-7f0c-4e79-bff2-9f108eb2bc0d</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+</TestCaseEntity>

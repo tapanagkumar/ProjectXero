@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression,,,2018-09-04 20:02:51,2018-09-04 20:02:53,2.266s,FAILED
+,,,,,,
+Test Cases/Tests/Add Bank Account/I want to be able to add an ANZ(NZ) bank account inside Xero Organisation,,"As a Xero User,
+In order to manage my business successfully,
+I want to be able to add an ANZ(NZ) bank account inside Xero Organisation.",2018-09-04 20:02:52,2018-09-04 20:02:53,1.525s,FAILED
+Start listener action : beforeTestcase,,,2018-09-04 20:02:52,2018-09-04 20:02:52,0.699s,ERROR
+comment,,,2018-09-04 20:02:53,2018-09-04 20:02:53,0.041s,PASSED
+callTestCase,,,2018-09-04 20:02:53,2018-09-04 20:02:53,0.427s,FAILED
+Start listener action : afterTestcase,,,2018-09-04 20:02:53,2018-09-04 20:02:53,0.037s,PASSED
