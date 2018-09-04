@@ -32,13 +32,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 	**C:\Users\tapan.LAPTOP-L18RHV6N\Downloads\Katalon_Studio_Windows_64-5.6.3>**
 	
-  `katalon -noSplash  -runMode=console -consoleLog -noExit -projectPath="C:\Users\tapan.LAPTOP-L18RHV6N\Downloads\ProjectXero\XeroProject.prj" -retry=0 -testSuitePath="Test Suites/Regression" -executionProfile="default" -browserType="Chrome"`
+  `katalon -noSplash  -runMode=console -consoleLog -noExit -projectPath="C:\Users\tapan.LAPTOP-L18RHV6N\Downloads\ProjectXero-master\ProjectXero-master\XeroProject.prj" -retry=0 -testSuitePath="Test Suites/Regression" -executionProfile="default" -browserType="Chrome"`
 
 3. If you want to run the test on firefox change the -browserType="Firefox"
 
 	**C:\Users\tapan.LAPTOP-L18RHV6N\Downloads\Katalon_Studio_Windows_64-5.6.3>**
 	
-  `katalon -noSplash  -runMode=console -consoleLog -noExit -projectPath="C:\Users\tapan.LAPTOP-L18RHV6N\Downloads\ProjectXero\XeroProject.prj" -retry=0 -testSuitePath="Test Suites/Regression" -executionProfile="default" -browserType="Firefox"`
+  `katalon -noSplash  -runMode=console -consoleLog -noExit -projectPath="C:\Users\tapan.LAPTOP-L18RHV6N\Downloads\ProjectXero-master\ProjectXero-master\XeroProject.prj" -retry=0 -testSuitePath="Test Suites/Regression" -executionProfile="default" -browserType="Firefox"`
 
 ### Reports
 
