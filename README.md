@@ -15,7 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Setting Up
 - [Check out](https://github.com/tapanagkumar/ProjectXero.git) the code from this repository
 - [How to open the project from Katalon studio](https://docs.katalon.com/display/KD/Manage+Test+Project)
-- Unzip the Downloaded code and open the project from File->Open Project ( EX: "Location of the file"\ProjectXero-master\ProjectXero-master\XeroProject)
+- Unzip the Downloaded code and from Katalon studio open the project from File->Open Project
 
 ### Executing a Test suite from Katalon Studio
 1. Expand the Test Suites and double click the Regression Tests
