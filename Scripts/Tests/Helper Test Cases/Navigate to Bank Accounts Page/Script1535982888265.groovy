@@ -19,6 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.comment('Click on Accounts option')
+
 WebUI.click(findTestObject('Page_Xero  Dashboard  Test/a_Accounts'))
+
+WebUI.comment('Click on Bank Accounts option')
 
 WebUI.click(findTestObject('Page_Xero  Dashboard  Test/a_Bank Accounts'))
